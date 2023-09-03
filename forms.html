@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Exercise</title>
+  </head>
+  <body>
+    <h2>Create an Account</h2>
+    <!-- form creation -->
+    <form action="process.php">
+      <div>
+        <!-- email input -->
+        <label for="email">Email:</label><br />
+        <input type="email" name="email" id="email" placeholder="enter email" />
+      </div>
+      <div>
+        <!-- password input  -->
+        <label for="password">Password:</label><br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="enter password"
+        />
+      </div>
+      <br />
+      <div>
+        <!-- age list  -->
+        <label for="age">Age:</label>
+        <br />
+        <select name="age" id="age">
+          <option value="underage">------</option>
+          <option value="underage">under 18</option>
+          <option value="underage">18+</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <!-- text message input  -->
+        <label for="message">Tell us a little about yourself: </label><br />
+        <textarea
+          name=""
+          id=""
+          cols="60"
+          rows="6"
+          placeholder="write here..."
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <!-- checkbox  -->
+        <input type="checkbox" name="terms" id="terms" /> I agree to the
+        <a href="http://google.com">terms of service</a>
+      </div>
+      <br />
+      <div>
+        <!-- submit button  -->
+        <input type="submit" value="Sign Up" />
+      </div>
+    </form>
+  </body>
+</html>
