@@ -1,0 +1,18 @@
+#hello1 {
+    border: 1px solid red;
+    font-style: italic;
+    border-radius: 15px;
+    font-size: large;
+}
+#hello2 {
+    
+    font-style: italic bold;
+    border-radius: 15px;
+    font-size: large;
+}
+#hello3 {
+    background: #000;
+    color: aliceblue;
+    text-shadow: 10px;
+    font-family: monospace;
+}
