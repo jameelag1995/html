@@ -6,8 +6,8 @@
 }
 #hello2 {
     
-    font-style: italic bold;
-    border-radius: 15px;
+    font-style: italic;
+    font-weight: bolder;
     font-size: large;
 }
 #hello3 {
