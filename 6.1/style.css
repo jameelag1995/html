@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    max-width: 1080;
+    
+}
+
+#box1{
+    background-color: coral;
+    text-align: center;
+    border: 1px black solid;
+    margin-bottom: 5px;
+    
+}
+#box2{
+    background-color: green;
+    text-align: center;
+    border: 1px black solid;
+    width: 29%;
+    height: 60vh;
+    float: left;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-left: 5px;
+}
+#box3{
+    background-color: purple;
+    text-align: center;
+    border: 1px black solid;
+    width: 70%;
+    height: 60vh;
+    float: right;
+    margin-bottom: 5px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.clr {
+    clear: both;
+}
+#box4{
+    background-color: blue;
+    text-align: center;
+    border: 1px black solid;
+}

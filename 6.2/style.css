@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    background-color: #7faa8d;
+    
+
+}
+
+#mainheader {
+    margin: 5px 10px;
+    text-align: center;
+    
+}
+.container {
+    border: black solid;
+    margin: auto;
+    position: relative;
+    width: 700px;
+    height: 600px;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    
+}
+.leftcont {
+    border: 1px black solid;
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 100%;
+    
+}
+#about{
+    position: relative;
+    float: right;
+    width: 40%;
+    height: 100%;
+    border: 1px solid;
+    left: 10px;
+    padding: 10px;
+    
+}
+#unorderdlist{
+    border: black solid;
+    margin: auto;
+    width: 700px;
+    
+}
+#unorderdlist h3 {
+    margin-left: 5px;
+}
+
+#ulist {
+    margin-left: 30px;
+}
