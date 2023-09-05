@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #275b79;
+  color: white;
+  text-align: center;
+}
+#flatbtn1 {
+  margin-right: 100px;
+  background: #2483d1;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+#flatbtn1:hover {
+  background: #1f6eaf;
+}
+#flatbtn2 {
+  font-size: 20px;
+
+  background: #dacf3f;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+#flatbtn2:hover {
+  background: #beb537;
+}
+#roundbtn1 {
+  border-radius: 20px;
+  margin-right: 100px;
+  background: #27ac3d;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+#roundbtn1:hover {
+  background: #228f34;
+}
+#roundbtn2 {
+  border-radius: 20px;
+  font-size: 20px;
+  background: #d85e91;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+#roundbtn2:hover {
+  background: #a5496f;
+}
+#flatghostbtn1 {
+  margin-right: 100px;
+  background: none;
+  border: rgb(168, 62, 62) 2px solid;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+#flatghostbtn1:hover {
+  background: rgb(168, 62, 62);
+}
+#flatghostbtn2 {
+  font-size: 20px;
+  background: none;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  border: rgb(136, 65, 136) 2px solid;
+}
+#flatghostbtn2:hover {
+  background: rgb(136, 65, 136);
+}
+#roundghostbtn1 {
+  border-radius: 20px;
+  margin-right: 100px;
+  background: none;
+  border: rgb(214, 214, 4) 2px solid;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+#roundghostbtn1:hover {
+  background: rgb(214, 214, 4);
+}
+#roundghostbtn2 {
+  border-radius: 20px;
+  font-size: 20px;
+  background: none;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  border: rgb(36, 214, 214) 2px solid;
+}
+#roundghostbtn2:hover {
+  background: rgb(36, 214, 214);
+}
