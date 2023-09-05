@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    background-color: #7faa8d;
+    
+
+}
+
+#mainheader {
+    margin: 5px 10px;
+    
+}
+.container {
+    border: black solid;
+    margin: 5px;
+    position: relative;
+    width: 700px;
+    height: 600px;
+    padding: 5px 15px;
+}
+.leftcont {
+    border: 1px black solid;
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 100%;
+    
+}
+#about{
+    position: relative;
+    float: right;
+    width: 40%;
+    height: 100%;
+    border: 1px solid;
+    left: 10px;
+    padding: 10px;
+    
+}
+#unorderdlist{
+    margin: 30px;
+}
