@@ -24,7 +24,7 @@ main {
   border-radius: 5px;
   position: sticky;
   background: #723c3c;
-  top: 0;
+  top: 20px;
 }
 
 .navbar li {
@@ -36,7 +36,7 @@ main {
   text-decoration: none;
   padding: 0px 20px;
   border-radius: 3px;
-  font-weight:bold
+  font-weight: bold;
 }
 .navbar li a:hover {
   background-color: #526e5b;
@@ -77,9 +77,9 @@ main {
   border-radius: 5px;
 }
 #unorderdlist a {
-    text-decoration: none;
-    color: #723c3c;
-  }
+  text-decoration: none;
+  color: #723c3c;
+}
 #unorderdlist h3 {
   margin-left: 5px;
 }
@@ -87,4 +87,3 @@ main {
 #ulist {
   margin-left: 30px;
 }
-
