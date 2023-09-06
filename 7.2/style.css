@@ -15,16 +15,17 @@ main {
   position: relative;
 }
 .navbar {
-  width: 284px;
-  height: 30px;
+  width: 281px;
+  height: 28px;
   margin-left: 40px;
   border: black solid;
   margin-bottom: 3px;
   overflow: auto;
   border-radius: 5px;
   position: sticky;
-  background: #723c3c;
+  z-index: 1;
   top: 20px;
+  left: 20px;
 }
 
 .navbar li {
@@ -35,8 +36,10 @@ main {
   color: black;
   text-decoration: none;
   padding: 0px 20px;
+  margin: 0px 3px;
   border-radius: 3px;
   font-weight: bold;
+  font-size: 14px;
 }
 .navbar li a:hover {
   background-color: #526e5b;
