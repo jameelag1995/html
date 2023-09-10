@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  height: 100vh;
+  background: url("https://images.unsplash.com/flagged/photo-1551301622-6fa51afe75a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80")
+    no-repeat center center/cover;
+    color: azure;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 20rem;
+}
+h1 {
+  
+  font-size: 5vw;
+}
+p {
+  margin: 1vw;
+  text-align: center;
+  font-size: 2vw;
+  padding: 1vw;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: azure;
+    padding: 0.4rem 2rem;
+    border-radius: 10px;
+    color: #333;
+    font-weight: bold;
+}
+.btn:hover {
+    background: rgb(1,127,136);
+    background: linear-gradient(0deg, rgba(1,127,136,1) 12%, rgba(0,88,78,1) 49%, rgba(0,34,40,1) 93%); 
+    color: #fff;
+}
+#email1 {
+    padding: 0.75rem 2rem;
+    border-radius: 10px;
+
+}
+section{
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 5rem;
+    background: rgb(1,127,136);
+    background: linear-gradient(0deg, rgba(1,127,136,1) 12%, rgba(0,88,78,1) 49%, rgba(0,34,40,1) 93%); 
+    
+
+}
+h2 {
+    font-size: 3vw;
+}
+form {
+    font-size: 2vw;
+    padding: 2rem;
+    margin-bottom: 1.3rem;
+}
+form input {
+    padding: 0.75rem 2rem;
+    text-align: center;
+    margin-bottom: 1.3rem;
+    border-radius: 10px;
+}
+#age {
+    margin-bottom: 1.3rem;
+}
+textarea {
+    border-radius: 10px;
+    padding: 10px;
+}
+.terms {
+    font-size: 1.5vw;
+}
