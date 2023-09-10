@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Media Queries</title>
+    <style>
+      body {
+        font-size: 10px;
+        text-align: center;
+      }
+      .box {
+        background: grey;
+        border: 1px solid black;
+        margin: 4px;
+      }
+      .flexbox {
+        display: flex;
+      }
+      @media (max-width: 500px) {
+        body {
+          background: red;
+        }
+        box h2 {
+          font-size: 2.3rem;
+        }
+        box p {
+          font-size: 1.2rem;
+        }
+        .flexbox {
+          
+          flex-wrap: wrap;
+        }
+      }
+      @media (min-width: 501px){
+        body {
+          background: green;
+        }
+
+        box h2 {
+          font-size: 2.8rem;
+        }
+        box p {
+          font-size: 1.7rem;
+        }
+        .flexbox {
+          
+          flex-wrap: unwrap;
+        }
+      }
+     
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="box box1">
+        <h2>Hello World!</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+          voluptas, provident consequatur facilis temporibus numquam voluptate
+          eum quisquam asperiores obcaecati odit consequuntur ut, iusto est? Cum
+          eius corrupti modi in!
+        </p>
+      </div>
+      <div class="box box2">
+        <h2>Hello World!</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+          voluptas, provident consequatur facilis temporibus numquam voluptate
+          eum quisquam asperiores obcaecati odit consequuntur ut, iusto est? Cum
+          eius corrupti modi in!
+        </p>
+      </div>
+      <div class="box box3">
+        <h2>Hello World!</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+          voluptas, provident consequatur facilis temporibus numquam voluptate
+          eum quisquam asperiores obcaecati odit consequuntur ut, iusto est? Cum
+          eius corrupti modi in!
+        </p>
+      </div>
+      <div class="box box4">
+        <h2>Hello World!</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+          voluptas, provident consequatur facilis temporibus numquam voluptate
+          eum quisquam asperiores obcaecati odit consequuntur ut, iusto est? Cum
+          eius corrupti modi in!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
