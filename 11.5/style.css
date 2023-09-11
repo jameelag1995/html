@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Space Mono", monospace;
+  background-color: #7faa8d;
+  font-size: 15px;
+}
+.mainheader {
+  margin: 5px 10px;
+  text-align: center;
+}
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.navbar {
+  min-width: 300px;
+  min-height: 32px;
+  border: black solid;
+  margin: auto;
+  margin-bottom: 3px;
+  overflow: auto;
+  border-radius: 5px;
+  
+}
+.navbar ul {
+  display: flex;
+}
+
+
+.navbar li {
+  display: inline-block;
+  list-style: none;
+}
+
+.navbar li a {
+  color: black;
+  text-decoration: none;
+  padding: 0px 20px;
+  margin: 0px 3px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.navbar li a:hover {
+  background-color: #526e5b;
+}
+.container {
+  border: black solid;
+  margin: auto;
+  
+  width: 100vw;
+  height: 60vh;
+  max-width: 768px;
+  padding: 5px 15px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+}
+
+.leftcont {
+  border: 1px black solid;
+  width: 60%;
+  height: 100%;
+  border-radius: 5px;
+  background: url("../img.jpeg") no-repeat center center/cover;
+}
+.about {
+  
+  
+  width: 40%;
+  height: 100%;
+  border: 1px solid;
+  padding: 10px;
+  margin-left: 12px;
+  border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .container {
+    
+    flex-wrap: wrap;
+  }
+  .leftcont{
+    margin-top: 5px;
+    height: 50%;
+    width: 100%;
+  }
+  .about {
+    height: 50%;
+    width: 100%;
+    margin: 5px 0;
+  }
+  body {
+    font-size: 0.8rem;
+  }
+  .navbar {
+    min-width: 100px;
+  }
+  .navbar ul {
+    flex-direction: column;
+  }
+  
+}
+.unorderdlist {
+  border: black solid;
+  margin: auto;
+  width: 100vw;
+  max-width: 768px;
+  border-radius: 5px;
+  
+}
+.unorderdlist ul {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+
+}
+.unorderdlist ul li {
+  width: 30px;
+  margin: auto;
+  list-style: none;
+}
+.unorderdlist a {
+  text-decoration: none;
+  color: #723c3c;
+}
+.unorderdlist h3 {
+  margin-left: 5px;
+}
+
+.ulist {
+  margin-left: 30px;
+}
