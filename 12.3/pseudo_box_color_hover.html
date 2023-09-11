@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo box color</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 20px;
+            padding: 0;
+        }
+        .box {
+            margin: auto;
+            width: 500px;
+            height: 500px;
+            position: relative;
+        }
+        .box::before{
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            background: #823b7f;
+            top: 0;
+            left: 0;
+        }
+        .box:hover::before {
+            background: rgb(231, 216, 131);
+        }
+        .box::after{
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            background: #ea4330;
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    
+</body>
+</html>
