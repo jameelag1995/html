@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome To Our Website</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+        cupiditate est nihil labore natus deleniti sint temporibus quae numquam.
+        Aliquid omnis ex voluptates adipisci expedita vitae impedit nostrum
+        atque, ducimus earum voluptas provident fuga, at libero aut ratione
+        totam exercitationem! Tempore vero iure corrupti libero a unde
+        perferendis et aut?
+      </p>
+      <a href="#" class="btn">Find Out More</a>
+    </header>
+    <section>
+      <h2>Create an Account to Stay Updated</h2>
+      <!-- form creation -->
+      <form action="process.php">
+        <div>
+          <!-- email input -->
+          <label for="email">E-Mail:</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your E-Mail"
+          />
+        </div>
+        <div>
+          <!-- password input  -->
+          <label for="password">Password:</label><br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter Password"
+          />
+        </div>
+
+        <div>
+          <!-- age list  -->
+          <label for="age">Age:</label>
+          <br />
+          <input type="date" value="2017-06-01" max="2023-12-31" />
+        </div>
+        <div>
+          <!-- text message input  -->
+          <label for="message">Tell us a little about yourself: </label><br />
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="6"
+            placeholder="Write Here..."
+          ></textarea>
+        </div>
+        <br />
+        <div class="terms">
+          <!-- checkbox  -->
+          <input type="checkbox" name="terms" id="terms" /> I agree to the
+          <a href="#">terms of service.</a>
+        </div>
+        <div>
+          <!-- submit button  -->
+          <input class="btn" type="submit" value="Submit" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
